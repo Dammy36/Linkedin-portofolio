@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+# Netlify automatically applies its Next.js runtime for App Router and server routes.
+# Set NEXT_PUBLIC_SITE_URL in Netlify to your real site origin, then redeploy.
