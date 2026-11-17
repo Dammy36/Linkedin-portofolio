@@ -28,8 +28,10 @@ export const insights: Insight[] = [
     title: "When should a small business automate a task?",
   },
   {
-    slug: "purposeful-progress",
+    slug: "business-problem-before-tools",
     category: "Building with Purpose",
-    title: "Why doing more isn't always making progress",
+    title: "Why I start with the business problem before choosing the tools",
+    introduction:
+      "I start by understanding what the business needs to improve, then decide whether a website, automation, or clearer content will help solve the problem.",
   },
 ];
