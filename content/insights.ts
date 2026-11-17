@@ -26,6 +26,12 @@ export const insights: Insight[] = [
     slug: "when-to-automate",
     category: "AI Automation",
     title: "When should a small business automate a task?",
+    introduction:
+      "When a task repeats, follows clear rules, and takes time away from customers, it may be a good candidate for automation.",
+    image: {
+      src: "/projects/lead-management-automation.png",
+      alt: "When should a business automate? An n8n lead workflow connects a webhook, routing, AI processing, Google Sheets, and Gmail follow-up actions.",
+    },
   },
   {
     slug: "business-problem-before-tools",
