@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-export const alt = "Damilola Oseyemi — Build with purpose. Grow with strategy.";
+export const alt = "Dammy Oseyemi — Build with purpose. Grow with strategy.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export default function Image() {
@@ -17,7 +17,7 @@ export default function Image() {
       }}
     >
       <div style={{ fontSize: 22, color: "#a1a1aa", marginBottom: 40 }}>
-        DAMILOLA OSEYEMI / DIGITAL SOLUTIONS
+        DAMMY OSEYEMI / DIGITAL SOLUTIONS
       </div>
       <div style={{ fontSize: 76, fontWeight: 800 }}>Build with purpose.</div>
       <div style={{ fontSize: 76, fontWeight: 800, color: "#a3e635" }}>

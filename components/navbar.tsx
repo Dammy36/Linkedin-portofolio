@@ -24,7 +24,7 @@ export function Navbar() {
             d<span>.</span>
           </span>
           <span>
-            Damilola<span className="brand-surname"> Oseyemi</span>
+            Dammy<span className="brand-surname"> Oseyemi</span>
           </span>
         </a>
         <nav aria-label="Main navigation" className="desktop-nav">

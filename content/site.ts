@@ -1,5 +1,5 @@
 export const site = {
-  name: "Damilola Oseyemi",
+  name: "Dammy Oseyemi",
   email: "pingrowthdigital@gmail.com",
   linkedin: "https://www.linkedin.com/in/damilola-oseyemi/",
   // Set NEXT_PUBLIC_SITE_URL to the real HTTPS deployment URL for canonical URLs and sitemap.

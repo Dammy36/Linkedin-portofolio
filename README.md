@@ -1,4 +1,4 @@
-# Damilola Oseyemi — purposeful digital solutions
+# Dammy Oseyemi — purposeful digital solutions
 
 Next.js App Router, TypeScript, Tailwind CSS 4, Lucide, and Motion. Requires Node.js 20.9+ (validated with Node 24) and npm. Self-hosted Inter, Poppins ExtraBold, and Montserrat fonts avoid runtime font services. Font licenses are in `public/fonts`.
 
