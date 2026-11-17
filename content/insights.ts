@@ -18,8 +18,8 @@ export const insights: Insight[] = [
       "The purpose behind Nayaé Beauty: helping customers explore makeup products and complete orders online.",
     linkedinUrl: "https://lnkd.in/p/d5i8feFi",
     image: {
-      src: "/projects/capture-beauty.png",
-      alt: "Nayaé Beauty makeup store homepage with product photography and shopping navigation.",
+      src: "/projects/beauty-photo-naye.png",
+      alt: "Nayaé Beauty website with makeup portraits and its Beauty, made personal mission statement.",
     },
   },
   {
@@ -33,5 +33,9 @@ export const insights: Insight[] = [
     title: "Why I start with the business problem before choosing the tools",
     introduction:
       "I start by understanding what the business needs to improve, then decide whether a website, automation, or clearer content will help solve the problem.",
+    image: {
+      src: "/projects/business-card.png",
+      alt: "Start with the problem: customers struggle to place orders, make shopping easier, then choose an online store with product pages and checkout.",
+    },
   },
 ];
