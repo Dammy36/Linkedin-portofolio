@@ -38,6 +38,7 @@ export const insights: Insight[] = [
     slug: "business-problem-before-tools",
     category: "Building with Purpose",
     title: "Why I start with the business problem before choosing the tools",
+    linkedinUrl: "https://lnkd.in/p/eDFq5VmK",
     introduction:
       "I start by understanding what the business needs to improve, then decide whether a website, automation, or clearer content will help solve the problem.",
     image: {
