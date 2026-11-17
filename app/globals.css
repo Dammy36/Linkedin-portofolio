@@ -908,6 +908,18 @@ svg {
   margin-bottom: 25px;
   overflow: hidden;
 }
+.insight-screenshot {
+  position: relative;
+  overflow: hidden;
+}
+.insight-screenshot img {
+  object-fit: cover;
+  object-position: top;
+}
+.insight-introduction {
+  margin-bottom: 1rem;
+  color: var(--muted);
+}
 .insight-art span {
   font-family: Poppins, Arial, sans-serif;
   font-size: 95px;

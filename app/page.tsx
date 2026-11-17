@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowUpRight,
   Code2,
@@ -214,13 +215,36 @@ export default function Home() {
             <div className="three-grid">
               {insights.map((post, i) => (
                 <article className="insight-card" key={post.slug}>
-                  <div className="insight-art" aria-hidden="true">
-                    <span>0{i + 1}</span>
-                    {i === 0 ? <Code2 /> : i === 1 ? <Workflow /> : <Compass />}
-                  </div>
+                  {post.image ? (
+                    <div className="insight-art insight-screenshot">
+                      <Image
+                        src={post.image.src}
+                        alt={post.image.alt}
+                        fill
+                        sizes="(max-width: 800px) 100vw, 33vw"
+                      />
+                    </div>
+                  ) : (
+                    <div className="insight-art" aria-hidden="true">
+                      <span>0{i + 1}</span>
+                      {i === 0 ? <Code2 /> : i === 1 ? <Workflow /> : <Compass />}
+                    </div>
+                  )}
                   <p className="eyebrow">{post.category}</p>
                   <h3>{post.title}</h3>
-                  {post.body && post.publishedAt ? (
+                  {post.introduction && (
+                    <p className="insight-introduction">{post.introduction}</p>
+                  )}
+                  {post.linkedinUrl ? (
+                    <a
+                      className="inline-link"
+                      href={post.linkedinUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Read on LinkedIn <ArrowUpRight size={16} />
+                    </a>
+                  ) : post.body && post.publishedAt ? (
                     <Link
                       className="inline-link"
                       href={`/insights/${post.slug}`}
